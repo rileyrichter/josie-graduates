@@ -1,4 +1,4 @@
-// Set the date we're counting down to, the time in CST
+// Set the date we're counting down to, the time in GMT
 const countDownDate = new Date("May 18, 2021 23:30:00 GMT");
 
 // Update the count down every 1 second

@@ -31,6 +31,7 @@ const x = setInterval(function () {
   document.getElementById("seconds").innerHTML = seconds;
 
   // If the count down is finished, remove the countdown element and copy, remove a combo class to reveal launch message
+/*
   if (distance < 0) {
     clearInterval(x);
     const itsTime = document.getElementById("itshere");
@@ -38,4 +39,5 @@ const x = setInterval(function () {
     timeWrapper.remove();
     itsTime.classList.remove("itshere");
   }
+*/
 }, 500);
